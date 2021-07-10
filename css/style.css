@@ -48,10 +48,17 @@ header {
   font-family: "Shippori Mincho", serif;
   font-size: 22px;
 }
+.hamburder-nav img {
+  display: none;
+  margin-right: 0px auto;
+}
 /*タブレット、スマホ版の記述*/
-.hamburder-nav {
+/*
+@media screen and (max-width: 1000px) {
+  .hamburder-nav {
   display: none;
 }
+*/
 .first__picture {
   background-image: url("../img/firstview.png");
   /*
@@ -73,11 +80,15 @@ header {
   margin-top: 110px;
   margin-left: 30px;
   padding: 80px;
+  /*
+  line-height: 150%;
+  */
 }
 .first__picture__ttl {
   color: #ffffff;
   font-family: "Shippori Mincho", serif;
   font-size: 60px;
+  line-height: 150%;
 }
 .first__picture__subttl {
   color: #ffffff;
@@ -85,6 +96,7 @@ header {
   font-size: 22px;
   margin-left: 20px;
   padding: 10px;
+  line-height: 150%;
 }
 /*2番目*/
 .second__content {
@@ -120,18 +132,20 @@ header {
 }
 .second__content--2 {
   position: absolute;
-  margin: 200px 10px 20px;
+  margin: 180px 10px 20px;
   padding: 50px 15px;
 }
 .second__img--ttl {
   color: #ffffff;
   font-family: "Shippori Mincho", serif;
   font-size: 26px;
+  line-height: 150%;
 }
 .second__img--content {
   color: #ffffff;
   font-family: "Shippori Mincho", serif;
   font-size: 22px;
+  line-height: 150%;
 }
 /*3番目*/
 .third__ttl {
@@ -184,21 +198,25 @@ header {
   color: #ffffff;
   font-family: "Shippori Mincho", serif;
   font-size: 26px;
+  line-height: 150%;
 }
 .forth__ttl__subttl--2 {
   color: #ffffff;
   font-family: "Shippori Mincho", serif;
   font-size: 40px;
+  line-height: 150%;
 }
 .forth__ttl__subttl--3 {
   color: #ffffff;
   font-family: "Shippori Mincho", serif;
   font-size: 22px;
+  line-height: 150%;
 }
 .forth__ttl__subttl--4 {
   color: #ffffff;
   font-family: "Shippori Mincho", serif;
   font-size: 22px;
+  line-height: 150%;
 }
 /*ボタン*/
 .btn {
@@ -209,7 +227,8 @@ header {
   font-family: "Shippori Mincho", serif;
   font-size: 22px;
   border: solid 2.5px #ffffff;
-  width: 42%;
+  width: 46%;
+  line-height: 150%;
 }
 /*5番目サイトフッダー*/
 footer {
